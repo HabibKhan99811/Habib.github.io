@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+} 
+.nav-link:hover{
+    background-color:rgba(224, 5, 49, 0.397);
+    border-radius: 5%;
+    transition: linear 0.5s ease-in;
+}
+.active{
+    background-color:crimson;
+    border-radius: 5%;
+
+}
+  /* banner styling */
+    .banner{
+        background-image: url("https://wallpapercave.com/wp/wp5187094.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner > .container{
+        padding-top: 160px;
+        padding-bottom: 250px;
+        color: white;
+    }
+    .ban-text1{
+        font-size: 29px;
+    }
+    .ban-text2{
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 50%;
+    }
+    .ban-text3{
+        font-size: 36px;
+    }
+    span{
+        color: rgb(156, 11, 11);
+        font-weight: bold;
+    }
+    .overlap-para{
+        width: 130px;
+        background-color: white;
+        color: black ;
+        margin:-17px auto 10px auto;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .overlap{
+        width: 200px;
+        height: 3px;
+        background-color: rgb(189, 8, 8);
+        margin: 10px auto 0px auto;
+    }
+    .overlap-heading{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .intro{
+        padding-top: 50px;
+    }
+    .intro-para{
+        font-size: 18px;
+    }
+    .section{
+        color: white;
+        padding-top: 60px;
+        background-color: #111;
+    }
+    #card-serv{
+        background: #222;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 50px 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    #card-serv:hover{
+        background: crimson;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+    #card-serv > .card-body > i{
+        font-size: 50px;
+        color: crimson;
+        margin-bottom: 5px;
+    }
+    #card-serv:hover i{
+        color: white;
+    }
+    .bar{
+        background-color: rgb(204, 203, 203);
+        padding: 0%;
+    }
+    .myhtml{
+        width: 90%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .mycss{
+        width: 80%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .myjs{
+        width: 60%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .myangular{
+        width: 50%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .mysql{
+        width: 70%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .mycsharp{
+        width: 10%;
+        background-color: crimson;
+        height: 5px;
+    }
+    .myteam-img > img{
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 5px solid crimson;
+        transition: all 0.3s ease;
+    }
+    #card-team{
+        background: #222;
+        color: white;
+        text-align: center;
+        border-radius: 6px;
+        padding: 50px 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    #card-team:hover{
+        background: crimson;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+    #card-team:hover img{
+        border: 5px solid white;}
+    }
+    #card-team:hover i{
+        color: white;
+    }
+    .card:hover .card-body , button{
+        transform: scale(1.05);
+    }
+    .info-icon{
+        color:crimson;
+    }
+    #con-ad{
+        font-weight: 500;
+     }
+    #button{
+        background-color: rgb(156, 11, 11);
+        color: white;
+        font-size: 20px;
+    }
+    #button:hover{
+        background-color: rgba(156, 11, 11, 0.089);
+        border: 2px solid rgb(156, 11, 11);
+        color: rgb(156, 11, 11);
+    }
+    .pg-footer{
+        position: relative;
+        clear: both;
+    }
+    .pg-footer > span > a{
+        text-decoration: none;
+    }
+    .footer-head{
+        background-color: crimson;
+    }
+    .foot-icon > a > i{
+        color: white;
+    }
+    .fa-facebook:hover{
+        color: #3b5998 ;
+    }
+    .fa-instagram:hover{
+        color: #f504ad;
+    }
+    @media  (max-width: 450px){
+        .ban-text1{
+            line-height: 98%;
+        }
+        .ban-text2{
+            line-height: 100%;
+        }
+        .ban-text3{
+            line-height: 98%;
+        }
+        /* .about-pic{
+            object-fit: cover;
+            width: 220px;
+            height: 220px;
+            border-radius: 5px;
+        } */
+        .overlap{
+            width: 200px;
+        }
+         .intro-content{
+        padding-left: 0px;
+        width: auto;
+    }
+    .intro{
+        padding-left: 0px;
+    }
+    .intro-para{
+        padding-left: 0px;
+        padding-top: 8px; 
+        margin-left: -20px;
+        text-align: justify;    
+    }
+    #con-ad{
+        text-align: center;
+        margin-top: -30px;
+     }
+     #f-name{
+         margin-bottom: 15px;
+     }
+}
